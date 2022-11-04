@@ -1,3 +1,29 @@
 body {
-    background: rgb(65, 168, 236, .5);
+    background-color: white;
+}
+#left{
+    float: left;
+    width: 200px;
+    height: 700px;
+    border: solid;
+    
+    border-color: black;
+    
+}
+.top{
+    position: relative;
+    text-align: center;
+    
+
+}
+#name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#main{
+ height: 700px;
+ border: solid;
+
 }

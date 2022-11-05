@@ -1,0 +1,31 @@
+.Blue{
+    position: absolute;
+    z-index: 1;
+    top: 212px;
+    left: 369px;
+
+}
+.ColorShip{
+    position: absolute;
+    z-index: 2;
+    top: 212px;
+    left: 369px;
+
+}
+.Crab{
+    position: absolute;
+    z-index: 3;
+    top:212px;
+    left:369px;
+}
+
+img#folder{
+    background-color: transparent;
+   
+    rotate: 90deg;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top:212px;
+    left:369px;
+}

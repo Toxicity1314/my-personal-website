@@ -1,31 +1,38 @@
-.Blue{
+.pic{
     position: absolute;
     z-index: 1;
     top: 212px;
     left: 369px;
-
-}
-.ColorShip{
-    position: absolute;
-    z-index: 2;
-    top: 212px;
-    left: 369px;
-
-}
-.Crab{
-    position: absolute;
-    z-index: 3;
-    top:212px;
-    left:369px;
+    width:400px;
+    height:400px;
 }
 
 img#folder{
     background-color: transparent;
-   
-    rotate: 90deg;
     position: absolute;
     width: 600px;
-    height: 600px;
-    top:212px;
-    left:369px;
+    height: 800px;
+    top:100px;
+    left:340px;
+}
+
+img#folderFront{
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    width: 600px;
+    height: 800px;
+    top:100px;
+    left:340px;
+}
+#dark{
+    position:fixed;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
 }

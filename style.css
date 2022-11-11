@@ -3,32 +3,34 @@ body {
 }
 .left{
     float: left;
-    width: 200px;
-    height: 700px;
+    position: fixed;
+    margin-top: 25%;
+    width: 19%;
     border: solid;
-    
     border-color: black;
     
 }
-.top{
-    position: relative;
+#pic{
+    width: 100%;
+    z-index: 2;
+    top: 0px;
+    position: fixed;
     text-align: center;
-    
-
 }
+
 #name{
-    position: absolute;
-    top: 50%;
+    position: fixed;
+    z-index: 3;
+    top: 25%;
     left: 50%;
     color: white;
 }
 
 .main{
- height: 700px;
- border: solid;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 25%;
+    border: solid;
 
-}
-.main>p {
-    text-align: center;
-    max-width: 40;
+
 }
